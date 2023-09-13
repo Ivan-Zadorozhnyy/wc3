@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 4px double black;
+    background-color: lightgray;
+}
+
+td, th {
+    padding: 15px;
+    border: 1px dashed darkgray;
+    color: darkgreen;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+tbody tr:nth-child(even) {
+    background-color: darkgreen;
+    color: white;
+}
+
+thead th {
+    font-style: italic;
+    font-size: 1.1em;
+    background-color: white;
+}
+
+th img {
+    vertical-align: middle;
+    margin-right: 5px;
+}

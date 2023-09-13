@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px groove rgb(128, 128, 128);
+    background-color: beige;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid darkred;
+    color: darkred;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(255, 200, 200);
+}
+
+tbody tr:nth-child(even) {
+    background-color: darkred;
+    color: white;
+}
+
+thead th {
+    text-decoration: underline;
+    font-size: 0.9em;
+    background-color: white;
+}
+
+th img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
